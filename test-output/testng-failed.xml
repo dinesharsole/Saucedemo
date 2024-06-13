@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Saucedemo_test.Orderflowfunctionality">
+        <methods>
+          <include name="Verify_addcart_button_functionality"/>
+          <include name="closeAll"/>
+          <include name="Verify_User_navigating_from_informationpage_to_OverviewpageofUser"/>
+          <include name="setup"/>
+          <include name="Verify_When_User_clickon_finishbutton_of_overviewpage_user_should_Checkout_successfully"/>
+          <include name="verify_removeb_button_functionality"/>
+        </methods>
+      </class> <!-- Saucedemo_test.Orderflowfunctionality -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
